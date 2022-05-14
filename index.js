@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000
 app.set('view engine', 'ejs')
 
 app.get('/', (req,res)=>{
-    res.send('home')
+    res.render('home')
     // res.send('This a nodejs dockerize application that will be deploy to heroku.')
 })
 
