@@ -1,0 +1,19 @@
+{
+  "name": "docker-nodejs",
+  "version": "1.0.0",
+  "description": "A simple Node and Docker application deployed to heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "backend": "nodemon index.js"
+  },
+  "author": "wanescript",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
