@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Dockerize23app</title>
 </head>
 <body>
-    <h1>Dockerize23</h1>
-    <h2>Docker with nodejs deployed to heroku.</h2>
+    <div class="container">
+       <div class="inner-container">
+    <%- include('partials/header.ejs') %>
+    <h2>A nodejs app ran in a docker container deployed to heroku.</h2>
     <p>This is a nodejs app that use docker to containerize its files, then uses heroku for deployment. Ejs is used as a template engine for rendering the server-side view.</p>
+    <%- include('./partials/footer.ejs') %>
+</div>
+</div>
 </body>
 </html>
