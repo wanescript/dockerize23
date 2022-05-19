@@ -1,7 +1,7 @@
 # dockerize23
 
 
-## __A basic nodejs app that's running inside a docker container deployed to heroku.__
+## __A simple nodejs app that's running inside a docker container deployed to heroku.__
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ### **__ Teaching while learning. __**
@@ -20,7 +20,7 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
  ### **---- Project summary:** 
- A very basic website with colors nothing fancy.
+ A very basic website with minimal CSS colors, nothing fancy.
 
  ---
 
