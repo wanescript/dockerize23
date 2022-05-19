@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Barlow Condensed', sans-serif;
+    
 }
 
 .container {
@@ -15,10 +16,24 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center; 
-}
-.inner-container {
-    width: 400px;
-   
+    text-align: center;
+    margin-top: 12%; 
+    
 }
 
+.inner-container {
+    width: 430px;
+     
+}
+
+.fa-docker,.fa-node-js {
+    margin: 5px;
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.icon-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

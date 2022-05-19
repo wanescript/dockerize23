@@ -1,4 +1,15 @@
-h5 {
-    color:blue;
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 4px;
+    
 }
+
+h5 {
+    color:blue; 
+}
+
