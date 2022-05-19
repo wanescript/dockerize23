@@ -78,12 +78,15 @@ git push heroku master
 
 **resources**:
 
+- [nodejs](https://nodejs.org/en/): Javascript run time for developing backend server applications.
 - [docker](https://hub.docker.com/) : Container management software.
 - [heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up): Cloud server
 
 ---
 
 You can view the app live with the URL provided below.
+
+---
 
 [dockerize23](https://dockerize23.herokuapp.com/)
 
